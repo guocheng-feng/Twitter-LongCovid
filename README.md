@@ -15,6 +15,7 @@ Then, we use DistilRoBERTa transformer model to predict Ekman's six basic emotio
 ### Files and Folders:
 - ***tweets_classification.ipynb***: codes using RoBERTa model to classify tweets into the four categories.
 - ***tweets_emotion.ipynb***: codes using DistilRoBERTa model to classify tweets into the Ekman's six basic emotions.
+- ***tweets_LDA_clean.ipynb***: codes for preparing tweets for LDA algorithm using preprocessing techniques.
 - ***tweets_LDA.ipynb***: codes using LDA algorithm to cluster tweets into the pre-defined number of groups depending on whether they shares the same topic.
 - ***tweets_visualization.ipynb***: codes visulzing previous tweets classification and emotion analysis results.
 - ***data/***: training data that we manually labeled for tweet content classification.
