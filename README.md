@@ -5,10 +5,10 @@ better the emotional and mental well-being of individuals with Long COVID, ident
 In terms of our methods, we use pre-trained transformer models for Long COVID tweets classification and emotion analysis, and Latent Dirichlet allocation (LDA) for topic extraction. 
 
 For Long COVID tweets classification, we apply RoBERTa model to cluster our tweets into following four categories,
-- Non-Long COVID Tweets,
-- Long COVID Tweets without Mental Health Content,
-- Long COVID Tweets with Implicit Mental Health Statements,
-- Long COVID Tweets with Explicit Mental Health Statements.
+- Non-Long COVID Tweets (1),
+- Long COVID Tweets without Mental Health Content (2),
+- Long COVID Tweets with Implicit Mental Health Statements (3),
+- Long COVID Tweets with Explicit Mental Health Statements (4).
 
 Then, we use DistilRoBERTa transformer model from Hugging Face (https://huggingface.co/j-hartmann/emotion-english-distilroberta-base) to predict Ekman's six basic emotion within tweets, and LDA algorithm to extract topics within tweets.
 
