@@ -11,3 +11,10 @@ For "Long COVID" tweets classification, we apply RoBERTa model to cluster our tw
 - "Long COVID" Tweets with Explicit Mental Health Statements.
 
 Then, we use DistilRoBERTa transformer model to predict Ekman's six basic emotion within tweets, and LDA algorithm to extract topics within tweets.
+
+## Files and Folders:
+- ***tweets_classification.ipynb***: codes using RoBERTa model to classify tweets into the four categories.
+- ***tweets_emotion.ipynb***: codes using RoBERTa model to classify tweets into the four categories.
+- ***tweets_LDA.ipynb***: codes using RoBERTa model to classify tweets into the four categories.
+- ***tweets_visualization.ipynb***: codes using RoBERTa model to classify tweets into the four categories.
+- ***data/***: training data that we manually labeled for tweet content classification.
