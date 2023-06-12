@@ -1,6 +1,8 @@
 # Twitter-LongCovid
-Long COVID generally refers to prolonged symptoms after infection of corona virus, and patient with Long COVID may also experience mental health challenges. Hence, this study aims to understand
-better the emotional and mental well-being of individuals with Long COVID, identify the topics that concern them the most, and establish potential correlations between their emotions and social media activities. In terms of our methods, we use pre-trained transformer models for "Long COVID" tweets classification and emotion analysis, and Latent Dirichlet allocation (LDA) for topic extraction. 
+Long COVID refers to persistent symptoms and possible mental health challenges experienced by patients after a COVID-19 infection. Hence, this study aims to understand
+better the emotional and mental well-being of individuals with Long COVID, identify the topics that concern them the most, and establish potential correlations between their emotions and social media activities. 
+
+In terms of our methods, we use pre-trained transformer models for "Long COVID" tweets classification and emotion analysis, and Latent Dirichlet allocation (LDA) for topic extraction. 
 
 For "Long COVID" tweets classification, we apply RoBERTa model to cluster our tweets into following four categories,
 - Non-Long COVID Tweets,
