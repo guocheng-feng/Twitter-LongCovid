@@ -16,7 +16,7 @@ Then, we use DistilRoBERTa transformer model from Hugging Face (https://huggingf
 - ***tweets_classification.ipynb***: codes using RoBERTa model to classify tweets into the four categories.
 - ***tweets_LDA_clean.ipynb***: codes for preparing tweets for LDA algorithm using preprocessing techniques.
 - ***tweets_LDA.ipynb***: codes using LDA algorithm to cluster tweets into the pre-defined number of groups depending on whether they shares the same topic.
-- ***tweets_visualization.ipynb***: codes visulzing previous tweets classification and emotion analysis results.
+- ***tweets_visualization.ipynb***: codes visualzing previous tweets classification and emotion analysis results.
 - ***data/***: training data that we manually labeled for tweet content classification.
   - ***classification_1***:training data for classifying whether tweets is about Long COVID,
   - ***classification_2***:training data for classifying whether tweets about Long COVID has mental health content,
